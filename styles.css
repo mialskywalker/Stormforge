@@ -1,0 +1,66 @@
+/*
+    nav color -> #14141d
+    normal btn color -> #007bff
+    nav hover links -> 
+
+
+*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-nav {
+    background: rgb(16,17,22);
+    background: linear-gradient(0deg, rgba(16,17,22,1) 0%, rgba(20,20,29,1) 50%, rgba(24,23,37,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+}
+
+.head-nav #logo img:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(80%);
+}
+
+.head-nav #nav-links ul {
+    list-style-type: none;
+    font-size: 12px;
+    display: flex;
+    gap: 32px;
+    padding: 0;
+    font-weight: 600;
+}
+
+.head-nav #nav-links ul li {
+    color: #FFFFFF;
+}
+
+.head-nav #nav-links ul li:hover {
+    cursor: pointer;
+    color: #c09507;
+}
+
+button {
+    cursor: pointer;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+    padding: 8px 28px;
+    font-size: small;
+}
+
+.normal-btn {
+    background-color: #007bff;
+}
+
+.normal-btn:hover {
+    -webkit-filter: brightness(90%);
+}
+
+.alt-btn {
+    background-color: transparent;
+}
+
