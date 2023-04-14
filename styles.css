@@ -11,13 +11,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER SECTION */
+
+.empty {
+    height: 6.5rem;
+    width: 100%;
+}
+
 .head-nav {
     background: rgb(16,17,22);
     background: linear-gradient(0deg, rgba(16,17,22,1) 0%, rgba(20,20,29,1) 50%, rgba(24,23,37,1) 100%);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 7rem;
+    height: 6.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .head-nav #logo img:hover{
@@ -63,4 +73,29 @@ button {
 .alt-btn {
     background-color: transparent;
 }
+
+/* HOME SECTION */
+
+.home {
+    background-color: red;
+    height: 32rem;
+    width: 100%;
+}
+
+/* home info */
+
+.home-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-info .text-box {
+    width: 30%;
+}
+
+.home-info .servers {
+    width: 40%;
+}
+
 
